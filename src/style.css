@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 body {
@@ -10,6 +12,8 @@ body {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: 'wdth' 100;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 .header {
@@ -18,23 +22,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  padding: 0 50px;
 }
 
 .logo {
-  display: inline-block;
-  margin: 10px 50px;
+  display: block;
+  margin: 10px 0;
 }
 
 .nav_list {
   list-style: none;
   display: flex;
-  margin-right: 50px;
-  padding: 0;
 }
 
 .nav_link {
-  font-size: 12px;
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
@@ -53,6 +54,7 @@ ul.nav_list :not(:last-child) {
 
 .is-active {
   color: #00acdc;
+  position: relative;
 }
 
 .is-active::after {
@@ -60,7 +62,7 @@ ul.nav_list :not(:last-child) {
   display: block;
   background-color: #00acdc;
   border-radius: 8px;
-  width: 37px;
+  width: 100%;
   height: 4px;
   position: absolute;
   bottom: 0;
