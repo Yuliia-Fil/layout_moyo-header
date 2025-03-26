@@ -25,9 +25,14 @@ body {
   padding: 0 50px;
 }
 
+.logo-link {
+  display: block;
+  height: 60px;
+}
+
 .logo {
   display: block;
-  margin: 10px 0;
+  margin-top: 11px;
 }
 
 .nav_list {
@@ -44,7 +49,7 @@ body {
   display: block;
 }
 
-ul.nav_list :not(:last-child) {
+.nav_list :not(:last-child) {
   margin-right: 20px;
 }
 
