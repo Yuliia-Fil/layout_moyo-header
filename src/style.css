@@ -12,7 +12,6 @@ body {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: 'wdth' 100;
-  margin-top: 10px;
   font-size: 12px;
 }
 
@@ -25,14 +24,8 @@ body {
   padding: 0 50px;
 }
 
-.logo-link {
-  display: block;
-  height: 60px;
-}
-
 .logo {
   display: block;
-  margin-top: 11px;
 }
 
 .nav_list {
