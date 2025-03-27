@@ -2,6 +2,8 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+
+  --blue-color: #00acdc;
 }
 
 body {
@@ -46,18 +48,18 @@ body {
 }
 
 .nav_link:hover {
-  color: #00acdc;
+  color: var(--blue-color);
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--blue-color);
   position: relative;
 }
 
 .is-active::after {
   content: ' ';
   display: block;
-  background-color: #00acdc;
+  background-color: var(--blue-color);
   border-radius: 8px;
   width: 100%;
   height: 4px;
